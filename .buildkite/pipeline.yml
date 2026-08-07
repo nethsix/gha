@@ -1,0 +1,6 @@
+steps:
+  - label: ":github: GitHub Actions"
+    key: "github-actions"
+    plugins:
+      - github-actions#v0.4.2:
+          workflow: .github/workflows/ci.yml
